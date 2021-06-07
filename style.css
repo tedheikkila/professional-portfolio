@@ -1,2 +1,44 @@
-/*Style sheet for professional portfolio, TWH, 6-7-21
+/*Style sheet for professional portfolio, TWH, 6-7-21 */
 
+
+/*Applies box model and sets margin/padding to 0, sets Arial to all text*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(170, 219, 247);
+}
+
+header {
+    background-color: cornflowerblue;
+    color:white;
+    list-style-type: none;
+    width:100%;
+    padding:20px;
+}
+
+header h1 {
+    display:inline-block;
+    font-size:50px;
+}
+
+.nav {
+    float: right;
+    margin-top:10px
+}
+
+header ul li {
+    display:inline-block;
+    font-size:20px;
+    margin-left:25px;
+    margin-right:30px
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
