@@ -11,6 +11,7 @@
 
 body {
     background-color: rgb(170, 219, 247);
+    margin:0 auto
 }
 
 header {
@@ -23,7 +24,8 @@ header {
 }
 
 header h1 {
-    font-size:50px;
+    font-size:45px;
+    text-decoration: underline dashed white 25px;
 }
 
 .nav {
@@ -35,8 +37,9 @@ header ul li {
     font-size:20px;
     margin-left:30px;
     margin-right:40px;
-    margin-bottom:-5px;
-    padding:5px
+    margin-bottom:10px;
+    margin-top: 50px;
+    padding: 5px
 }
 
 a {
@@ -45,13 +48,13 @@ a {
 }
 
 a:hover {    
-    text-decoration: underline solid white 3px;
+    text-decoration: underline solid white 7.5px;
 }
 
-.background {
+.profile {
     position:relative;
     text-align: center;
-    color:white
+    color:white;
 }
 
 .summary {
@@ -60,12 +63,19 @@ a:hover {
     top: 75px;
     left: 30px;
     font-size: 20px;
-    padding:10px
+    padding:10px;
+    font-weight: 500;
 }
 
-img {
+.background {
     width:100%;
     object-fit: cover;
 }
 
+.pic {
+    position: absolute;
+    left: 320px;
+    border-left: solid 7.5px white;
+    border-right: solid 7.5px white;
+}
 
