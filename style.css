@@ -54,7 +54,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {    
+.nav a:hover {    
     text-decoration: underline solid white 7.5px;
 }
 
@@ -135,7 +135,7 @@ a:hover {
 }
 
 .Work {
-    height:310px;
+    position:relative;
     margin-top:50px;
     margin-left:50px;
     border-radius: 10px;
@@ -147,79 +147,85 @@ a:hover {
     color:white;
     margin-top:50px;
     background-color:var(--content);
-    width:90%;
+    width:85%;
     padding:20px;
     border-radius: 10px;
+    margin-bottom:50px;
 }
 
 .work-samples {
-    position:relative;
     display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 
 img.google {
     position:relative;
     display:flex;
-    margin-bottom: 50px;
-    margin-top:20px;
+    flex:row;
     border-radius: 10px;
 }
 
-.google-2 {
-    position:absolute;
-    top:260px;
-    background-color: black;
-    font-size:20px;
-    padding:20px;
-    border-radius: 5px;
-}
 
 img.google:hover {
-    filter: saturate(200%);
+    filter: saturate(150%);
     box-shadow: 0 6px 20px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.google-1 {
+    color:black;
+    margin-top:10px;
+    text-align:center;
+    font-size:16px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.google-1:hover, .netflix-1:hover {
+    text-decoration: underline solid black 7.5px;
+}
+
+.space {
+    margin: 50px;
 }
 
 img.netflix {
     position:relative;
-    display:flex;
-    flex:row;
-    margin-bottom: 50px;
-    margin-top:20px;
+    display:block;
+    flex:column;
     border-radius: 10px;
-    margin-right: 10px;
-    margin-left:10px;
 }
 
-.netflix-2 {
-    position:absolute;
-    top:260px;
-    background-color: black;
-    font-size:10px;
-    padding:20px;
-    border-radius: 5px;
-}
 
 img.netflix:hover {
-    filter: saturate(200%);
+    filter: saturate(150%);
     box-shadow: 0 6px 20px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.netflix-1 {
+    color:black;
+    margin-top:10px;
+    text-align:center;
+    font-size:16px;
+    font-weight: bold;
+}
 
 .ContactMe {
-    position:relative;
-    display:block;
-    margin-top: 150px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 50px;
     background-color: white;
-    height:240px;
-    width:75%;
+    width:60%;
     margin-left:50px;
     border-radius: 10px;
 }
 
 .ContactMe h2 {
+    position:relative;
+    display:flex;
     font-size:30px;
     color:white;
-    margin-top:100px;
     background-color:var(--content);
     padding:20px;
     width:100%;
@@ -232,7 +238,8 @@ img.netflix:hover {
     margin-right:20px;
     margin-bottom:10px;
     margin-top:10px;
-    padding:10px
+    padding-bottom:25px;
+    padding-top:25px;
 }
 
 .p-contact .GitHub, .LinkedIn {
@@ -242,7 +249,8 @@ img.netflix:hover {
     margin-right:20px;
     margin-left:40px;
     margin-top:10px;
-    padding:10px
+    padding-bottom:25px;
+    padding-top:25px;
 }
 
 .p-contact .GitHub:hover, .p-contact .LinkedIn:hover{
