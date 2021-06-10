@@ -1,4 +1,4 @@
-<!--HTML for professional portfolio, TWH, 6-7-21-->
+<!--HTML for professional portfolio, TWH, 6-9-21-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,14 +7,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking reset and style css-->
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
+    <!--Tab title-->
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
         <h1 id="TedHeikkila">Ted Heikkila</h1>
+        <!--Nav links to 4 different portfolio sections-->
         <ul class="nav">
             <li><a href="#AboutMe">About Me</a></li>
             <li><a href="#Work">Work</a></li>
@@ -23,13 +26,15 @@
         </ul>
     </header>
 
+    <!--Profile pic w/background image and current professional status-->
     <div class="profile">
         <img class="background" src="https://cdn.wallpapersafari.com/21/60/Qdhbm1.jpg" width="500" height="200" alt="Header Tech Image">
-        <img class="prof-pic" src="prof-pic.png" width="150" height="200" alt="Profile Pic">
+        <img class="prof-pic" src="./images/prof-pic.png" width="150" height="200" alt="Profile Pic">
         <div class="summary">| UMN coding student |</div>
     </div>
     
     <main>
+        <!--About Me highlights-->
         <section class="AboutMe" id="AboutMe">
             <h2>About Me</h2>
             <div class="Bio">Bio: enrolled in a UMN coding curriculum</div>
@@ -37,11 +42,12 @@
             <div class="Hobbies">Hobbies: coding, running, gaming, music</div>
         </section>
 
+        <!--Place holder work samples (Google, Netflix, TRN, Weather)-->
         <section class="Work" id="Work">
             <h2>Work</h2>
             <div class="work-samples">
                 <a href="https://www.google.com/?gws_rd=ssl" target="_blank">
-                    <img class="google" src="https://cdn.vox-cdn.com/thumbor/x5bPoUvbJhKWBIxX7LV2j_Bpi_8=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19287010/acastro_191014_1777_google_pixel_0005.0.jpg" width="400" height="270" alt="Google"/> 
+                    <img class="google" src="https://cdn.vox-cdn.com/thumbor/x5bPoUvbJhKWBIxX7LV2j_Bpi_8=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19287010/acastro_191014_1777_google_pixel_0005.0.jpg" width="420" height="300" alt="Google"/> 
                     <p class="google-1">Google -- HTML/CSS</p>
                 </a>
                 <div class="space"></div>
@@ -49,10 +55,20 @@
                     <img class="netflix" src="https://images.indianexpress.com/2016/06/netflix-new-icon-fbfeed.jpg" width="250" height="250" alt="Netflix"/> 
                     <p class="netflix-1">Netflix -- Javascript/PHP</p>
                 </a>
+                <div class="space"></div>
+                <a href="https://fortnitetracker.com" target="_blank">
+                    <img class="trn" src="https://pbs.twimg.com/profile_images/1052980485104656384/6mctrPUF.jpg" width="250" height="250" alt="TRN"/> 
+                    <p class="trn-1">TRN -- Node/Python</p>
+                </a>
+                <div class="space"></div>
+                <a href="https://weather.com" target="_blank">
+                    <img class="weather" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPD_5I_qMiNRzzW_XvGp9XVzRHkr614fLskIhyiBV3nU3Xn8RA3EaGfK4XoOZKiNNrKUg&usqp=CAU" width="250" height="250" alt="Weather Channel"/> 
+                    <p class="weather-1">Weather.com -- API</p>
+                </a>
             </div>
         </section>
         
-
+        <!--Contact Me contains fake phone # and email; GitHub and LinkedIn are actual links-->
         <section class="ContactMe" id="ContactMe">
             <h2>Contact Me</h2>
             <div class="p-contact">
@@ -64,11 +80,13 @@
             </div>
         </section>
 
+        <!--Resume-->
         <section class="Resume" id="Resume">
             <h2>Resume</h2>
             <p>Available upon email request</p>
         </section>
 
+        <!--Footer returns user to page top-->
         <footer><a href="#TedHeikkila">Return to top</a></footer>
     </main>
 

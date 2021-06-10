@@ -12,6 +12,10 @@ URL:
 <br>
 Check out the deployed application here: https://tedheikkila.github.io/hw2-professional-portfolio/.
 
-Screenshots:
+Application screenshots:
 <br>
-Add images of application here. 
+<img src="./images/hw2-top.png" width="600" /> 
+<img src="./images/hw2-bottom.png" width="600" /> 
+
+
+ 
