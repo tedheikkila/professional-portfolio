@@ -2,7 +2,7 @@
 
 Summary: 
 <br>
-The objective of this application is to function as a placeholder for future portfolio content and working applications. Principles of HMTL, CSS, and Git were employed. Please check back during the summer months of 2021, as content will be updated periodically. For best results, render using Google Chrome (underline animations don't work in Safari and possibly other browsers).
+The objective of this application is to function as a placeholder for future portfolio content and working applications. Principles of HMTL, CSS, and Git were employed. Please check back during the summer months of 2021, as content will be updated periodically. All past homework (1-6) and project 1 has been updated as of 6/29/21. For best results, render using Google Chrome.
 
 Breakdown: 
 <br>

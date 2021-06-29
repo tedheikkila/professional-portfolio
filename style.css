@@ -1,4 +1,4 @@
-/* Style sheet for professional portfolio, TWH, 6-9-21 */
+/* Style sheet for professional portfolio, TWH, 6-29-21 */
 
 
 /* applies box model, sets margin/padding to 0, sets Arial to all text */
@@ -173,19 +173,20 @@ a {
 }
 
 /* moves and styles application images */
-img.google, img.netflix, img.trn, img.weather {
+img.semantic, img.password, img.quiz, img.planner, img.weather, img.movie {
     position:relative;
     border-radius: 10px;
 }
 
 /* brightens/saturates application's img color during img hover */
-img.google:hover, img.netflix:hover, img.trn:hover, img.weather:hover {
+img.semantic:hover, img.password:hover, img.quiz:hover, img.planner:hover, 
+img.weather:hover, img.movie:hover {
     filter: saturate(150%);
     box-shadow: 0 6px 20px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* p's for each application */
-.google-1, .netflix-1, .trn-1, .weather-1 {
+.semantic-1, .password-1, .quiz-1, .planner-1, .weather-1, .movie-1 {
     color:black;
     margin-top:10px;
     text-align:center;
@@ -194,7 +195,7 @@ img.google:hover, img.netflix:hover, img.trn:hover, img.weather:hover {
 }
 
 /* adds black underline animation on hover for applications' p's */
-.google-1:hover, .netflix-1:hover, .trn-1:hover, .weather-1:hover{
+.semantic-1:hover, .password-1:hover, .quiz-1:hover, .planner-1:hover, .weather-1:hover, .movie-1:hover{
     text-decoration: underline solid black 7.5px;
 }
 
