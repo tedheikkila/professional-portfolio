@@ -22,7 +22,6 @@ body {
 }
 
 .navbar {
-    background-color: rgb(170, 219, 247);
     list-style-type: none;
     text-decoration: none;
     padding-top: 1%;
@@ -41,6 +40,10 @@ a:hover {
     color:black
 }
 
+.profile {
+    text-align: center;
+}
+
 .background {
     position: relative;
     width:100%;
@@ -50,30 +53,36 @@ a:hover {
 
 .prof-pic {
     position: absolute;
-    margin-left:-58%;
+    text-align: center;
+    margin-left:-59%;
     z-index: 1;
+    border-left: solid white 10px;
+    border-right: solid white 10px;
 }
 
-.AboutMe {
+.about-me {
+    text-align: center;
     position:relative;
     background-color: white;
     height:310px;
-    width:60%;
-    margin-top:50px;
-    margin-left:50px;
+    width:70%;
+    margin-top:3%;
+    margin-left:15%;
+    margin-right:15%;
     border-radius: 10px;
 }
 
-.AboutMe h2 {
+.about-me h2 {
+    text-align: center;
     font-size:30px;
     color:white;
-    margin-top:50px;
+    margin-top:3%;
     background-color:var(--content);
     padding:20px;
     width:100%;
 }
 
-.Bio {
+.bio {
     font-size:20px;
     position:absolute;
     top: 100px;
@@ -83,7 +92,7 @@ a:hover {
     display:block
 }
 
-.Interests {
+.interests {
     font-size:20px;
     position:absolute;
     top: 180px;
@@ -93,7 +102,7 @@ a:hover {
     margin-bottom:70px
 }
 
-.Hobbies {
+.hobbies {
     font-size:20px;
     position:absolute;
     top: 250px;
@@ -213,3 +222,15 @@ footer {
 #footer-link {
     color:white
 }
+
+@media screen and (max-width: 700px) {
+    .prof-pic {
+      margin-left: -68%;
+    }
+} 
+
+@media screen and (max-width: 700px) {
+    .navbar {
+      margin-bottom: 5%;
+    }
+} 
