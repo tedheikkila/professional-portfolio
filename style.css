@@ -60,12 +60,11 @@ a:hover {
     position:relative;
     background-color: white;
     width:70%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     margin-top:3%;
     margin-left:15%;
     margin-right:15%;
     border-radius: 10px;
-    margin-bottom: 3%;
 }
 
 .bio h2, .contact-me h2 {
@@ -80,7 +79,7 @@ a:hover {
 
 .summary, .interests, .hobbies, .github, .linkedin {
     font-size:20px;
-    padding:3%;
+    padding:1%;
     margin-bottom: 4%;
     margin-top:4%;
     color: black
@@ -96,13 +95,19 @@ a:hover {
     color:white;
     background-color:var(--content);
     padding:20px;
-    margin-bottom:50px;
+    margin-bottom:5%;
 }
 
 .work-samples {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.semantics, .password-gen, .coding-quiz, .daily-planner, .weather-dashboard, .movie-pop {
+    margin: 3%;
 }
 
 img.semantic, img.password, img.quiz, img.planner, img.weather, img.movie {
@@ -118,14 +123,9 @@ img.weather:hover, img.movie:hover {
 
 .semantic-1, .password-1, .quiz-1, .planner-1, .weather-1, .movie-1 {
     color:black;
-    margin-top:10px;
+    margin-top:3%;
     text-align:center;
     font-size:20px;
-    margin-bottom:20px;
-}
-
-.space {
-    margin: 50px;
 }
 
 .resume {
@@ -160,3 +160,4 @@ footer {
       margin-bottom: 5%;
     }
 } 
+
