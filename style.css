@@ -32,16 +32,12 @@ body {
     font-size:25px;
 }
 
-a {
+.navbar a {
     color:black;
 }
 
 a:hover {
     color:black
-}
-
-.profile {
-    text-align: center;
 }
 
 .background {
@@ -76,7 +72,7 @@ a:hover {
     text-align: center;
     font-size:30px;
     color:white;
-    margin-top:3%;
+    margin-top:8%;
     background-color:var(--content);
     padding:20px;
     width:100%;
@@ -111,20 +107,15 @@ a:hover {
     display: block;
 }
 
-.Work {
-    position:relative;
-    margin-top:50px;
-    margin-left:50px;
-    border-radius: 10px;
-}
-
-.Work h2 {
-    position:relative;
+.apps-title {
+    text-align: center;
+    width:70%;
+    margin-right:15%;
+    margin-left:15%;
+    margin-top:5%;
     font-size:30px;
     color:white;
-    margin-top:50px;
     background-color:var(--content);
-    width:95%;
     padding:20px;
     border-radius: 10px;
     margin-bottom:50px;
@@ -160,46 +151,35 @@ img.weather:hover, img.movie:hover {
 }
 
 .ContactMe {
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    margin-top: 50px;
     background-color: white;
     width:60%;
-    margin-left:50px;
+    margin-right:20%;
+    margin-left:20%;
     border-radius: 10px;
 }
 
 .ContactMe h2 {
     position:relative;
-    display:flex;
     font-size:30px;
     color:white;
     background-color:var(--content);
     padding:20px;
-    width:100%;
 }
 
-.p-contact p {
-    display:inline-block;
-    font-size:20px;
-    margin-left:40px;
-    margin-right:20px;
-    margin-bottom:10px;
-    margin-top:10px;
-    padding-bottom:25px;
-    padding-top:25px;
+.contact-title {
+    text-align: center;
 }
 
 .p-contact .GitHub, .LinkedIn {
     display:inline-block;
     color:black;
     font-size:20px;
-    margin-right:20px;
-    margin-left:40px;
+    margin-right:40%;
+    margin-left:40%;
     margin-top:10px;
     padding-bottom:25px;
     padding-top:25px;
+    text-align: center;
 }
 
 .Resume {
