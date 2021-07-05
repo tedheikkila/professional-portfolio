@@ -15,6 +15,7 @@ Check out the deployed application here: https://tedheikkila.github.io/hw2-profe
 Application screenshots:
 <br>
 <img src="./images/hw2-top.png" width="600" /> 
+<img src="./images/hw2-middle.png" width="600" /> 
 <img src="./images/hw2-bottom.png" width="600" /> 
 
 
