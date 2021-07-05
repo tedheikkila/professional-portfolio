@@ -71,7 +71,7 @@ a:hover {
     text-align: center;
     font-size:30px;
     color:white;
-    margin-top:8%;
+    margin-top:5%;
     background-color:var(--content);
     padding:20px;
     margin-bottom:3%;
@@ -90,24 +90,25 @@ a:hover {
     width:70%;
     margin-right:15%;
     margin-left:15%;
-    margin-top:5%;
+    margin-top:4%;
     font-size:30px;
     color:white;
     background-color:var(--content);
     padding:20px;
-    margin-bottom:5%;
+    margin-bottom:2%;
 }
 
-.work-samples {
+.apps {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    margin-left: 10%;
-    margin-right:10%;
+    text-align: center;
+    margin-left: 13%;
+    margin-right:13%;
 }
 
 .semantics, .password-gen, .coding-quiz, .daily-planner, .weather-dashboard, .movie-pop {
-    margin: 3%;
+    margin: 2%;
 }
 
 img.semantic, img.password, img.quiz, img.planner, img.weather, img.movie {
@@ -131,7 +132,7 @@ img.weather:hover, img.movie:hover {
 .resume {
     position:relative;
     display: block;
-    margin-top: 50px;
+    margin-top: 3%;
     text-align:center;
     font-size:20px
 }
@@ -160,4 +161,20 @@ footer {
       margin-bottom: 5%;
     }
 } 
+
+@media screen and (max-width: 900px) {
+    .semantics, .password-gen, .coding-quiz, .daily-planner, .weather-dashboard, .movie-pop {
+      margin-left: -2%;
+      margin-right: 2%;
+    }
+} 
+
+@media screen and (max-width: 900px) {
+    .coding-quiz{
+      margin-left: 10%;
+      margin-right: 2%;
+    }
+} 
+
+
 
