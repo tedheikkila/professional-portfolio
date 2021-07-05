@@ -22,11 +22,11 @@ body {
 }
 
 .navbar {
-    background-color: rgb(93, 163, 204);
+    background-color: rgb(170, 219, 247);
     list-style-type: none;
     text-decoration: none;
     padding-top: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
     margin-left: 5%;
     margin-right:5%;
     width:90%;
@@ -37,23 +37,21 @@ a {
     color:black;
 }
 
-
-.profile {
-    position:relative;
-    text-align: center;
-    color:white;
+a:hover {
+    color:black
 }
 
 .background {
+    position: relative;
     width:100%;
     object-fit: cover;
+    z-index: -1;
 }
 
 .prof-pic {
     position: absolute;
-    left: 320px;
-    border-left: solid 7.5px white;
-    border-right: solid 7.5px white;
+    margin-left:-58%;
+    z-index: 1;
 }
 
 .AboutMe {
@@ -195,10 +193,6 @@ img.weather:hover, img.movie:hover {
     padding-top:25px;
 }
 
-.p-contact .GitHub:hover, .p-contact .LinkedIn:hover{
-    text-decoration: underline solid black 7.5px;
-}
-
 .Resume {
     position:relative;
     display: block;
@@ -213,5 +207,9 @@ footer {
     padding:30px;
     text-align:center;
     font-size:20px;
-    margin-top:50px
+    margin-top:50px;
+}
+
+#footer-link {
+    color:white
 }
