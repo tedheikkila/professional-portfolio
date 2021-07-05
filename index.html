@@ -1,4 +1,4 @@
-<!--HTML for professional portfolio, TWH, 6-29-21-->
+<!--HTML for professional portfolio, TWH, 7-5-21-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,23 +7,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Linking reset and style css-->
+    <!--google fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Code+Pro&display=swap" rel="stylesheet">    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!--reset and style css-->
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
-    <!--Tab title-->
+    <!--tab title-->
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1 id="TedHeikkila">Ted Heikkila</h1>
-        <!--Nav links to 4 different portfolio sections-->
-        <ul class="nav">
+    <header class="header">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="header-container">
+                <h1 class="display-3">Ted Heikkila</h1>
+                <p class="lead">UMN coding student</p>
+            </div>
+        </div>
+        <nav class="navbar navbar-light" style="background-color: rgb(170, 219, 247);">
+            <!-- Navbar content -->
             <li><a href="#AboutMe">About Me</a></li>
             <li><a href="#Work">Work</a></li>
             <li><a href="#ContactMe">Contact Me</a></li>
             <li><a href="#Resume">Resume</a></li>
-        </ul>
+          </nav>
     </header>
 
     <!--Profile pic w/background image and current professional status-->
@@ -31,7 +39,6 @@
         <img class="background" src="https://cdn.wallpapersafari.com/21/60/Qdhbm1.jpg" width="500" height="200"
             alt="Header Tech Image">
         <img class="prof-pic" src="./images/prof-pic.png" width="150" height="200" alt="Profile Pic">
-        <div class="summary">| UMN coding student |</div>
     </div>
 
     <main>
@@ -48,41 +55,33 @@
             <h2>Work</h2>
             <div class="work-samples">
                 <a href=" https://tedheikkila.github.io/hw1-semantic-tags/" target="_blank">
-                    <img class="semantic"
-                        src="images/semantic-tags.png" width="420" height="300" alt="Semantic Tags"/>
+                    <img class="semantic" src="images/semantic-tags.png" width="420" height="300" alt="Semantic Tags" />
                     <p class="semantic-1">Semantic Tags -- HTML/CSS</p>
                 </a>
                 <div class="space"></div>
                 <a href="https://tedheikkila.github.io/hw3-pw-generator/" target="_blank">
-                    <img class="password" src="./images/password.png"
-                        width="400" height="250" alt="Password Generator"/>
+                    <img class="password" src="./images/password.png" width="400" height="250"
+                        alt="Password Generator" />
                     <p class="password-1">Password Generator -- Javascript</p>
                 </a>
                 <div class="space"></div>
                 <a href="https://tedheikkila.github.io/hw4-coding-quiz/" target="_blank">
-                    <img class="quiz" src="./images/quiz.png"
-                        width="250" height="250" alt="Coding Quiz"/>
+                    <img class="quiz" src="./images/quiz.png" width="250" height="250" alt="Coding Quiz" />
                     <p class="quiz-1">Coding Quiz -- HTML/CSS/Javascript</p>
                 </a>
                 <div class="space"></div>
                 <a href="https://tedheikkila.github.io/hw5-daily-planner/" target="_blank">
-                    <img class="planner"
-                        src="./images/planner.png"
-                        width="300" height="400" alt="Daily Planner"/>
+                    <img class="planner" src="./images/planner.png" width="300" height="400" alt="Daily Planner" />
                     <p class="planner-1">Daily Planner -- Moment.js/jQuery/Bootstrap</p>
                 </a>
                 <div class="space"></div>
                 <a href="https://tedheikkila.github.io/hw6-weather-dashboard/" target="_blank">
-                    <img class="weather"
-                        src="./images/weather.png"
-                        width="500" height="300" alt="Weather Dashboard"/>
+                    <img class="weather" src="./images/weather.png" width="500" height="300" alt="Weather Dashboard" />
                     <p class="weather-1">Weather Dashboard -- API/Javascript</p>
                 </a>
                 <div class="space"></div>
                 <a href="https://tedheikkila.github.io/movie-pop/" target="_blank">
-                    <img class="movie"
-                        src="./images/movie.png"
-                        width="400" height="300" alt="Movie Pop"/>
+                    <img class="movie" src="./images/movie.png" width="400" height="300" alt="Movie Pop" />
                     <p class="movie-1">Movie Pop -- Bootstrap/Javascript/API</p>
                 </a>
             </div>
@@ -96,7 +95,8 @@
                 <p>placeholder@gmail.com</p>
                 <a class="GitHub" href="https://github.com/tedheikkila" target="_blank">GitHub
                 </a>
-                <a class="LinkedIn" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank">LinkedIn
+                <a class="LinkedIn" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"
+                    target="_blank">LinkedIn
                 </a>
             </div>
         </section>
@@ -112,5 +112,9 @@
             <a href="#TedHeikkila">Return to top</a>
         </footer>
     </main>
+    <!--bootstrap (min and popper)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

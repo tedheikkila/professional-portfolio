@@ -1,93 +1,54 @@
 /* Style sheet for professional portfolio, TWH, 6-29-21 */
 
-
-/* applies box model, sets margin/padding to 0, sets Arial to all text */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: Arial;
+    font-family: 'Fira Code', monospace;
 }
 
-/* root styling color css variable for header, about me, etc */
 :root {
     --content: rgb(36, 92, 196);
 }
 
-/* page bg color */
-body {
-    background-color: rgb(170, 219, 247);
-    margin:0 auto
-}
-
-/* header */
-header {
+.jumbotron {
+    text-align: center;
     background-color: var(--content);
     color:white;
+    margin-top: -2%;
+    border-bottom: solid white 10px;
+}
+
+body {
+    background-color: rgb(170, 219, 247);
+}
+
+.navbar {
+    background-color: rgb(93, 163, 204);
     list-style-type: none;
-    width:100%;
-    padding:30px;
-    display:inline-block;
-}
-
-header h1 {
-    font-size:45px;
-    text-decoration: underline dashed white 25px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
-/* moves links to the page's right */
-.nav {
-    text-align: right;
-}
-
-header ul li {
-    display:inline-block;
-    font-size:20px;
-    margin-left:30px;
-    margin-right:40px;
-    margin-bottom:10px;
-    margin-top: 70px;
-    padding: 5px
-}
-
-/* styles general a elements (specific "a" elements were changed further down sheet) */
-a {
-    color:white;
     text-decoration: none;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right:5%;
+    width:90%;
+    font-size:25px;
 }
 
-/* creates white underline during hover event for nav links */
-.nav a:hover, footer a:hover {    
-    text-decoration: underline solid white 7.5px;
+a {
+    color:black;
 }
 
-/* profile section */
+
 .profile {
     position:relative;
     text-align: center;
     color:white;
 }
 
-/* styling for font appearing on left side of profile bg image */
-.summary {
-    position: absolute;
-    text-align:left;
-    top: 75px;
-    left: 50px;
-    font-size: 20px;
-    padding:10px;
-    font-weight: 500;
-}
-
-/* bg image for profile section */
 .background {
     width:100%;
     object-fit: cover;
 }
 
-/* sets and styles profile pic on top of profile bg image */
 .prof-pic {
     position: absolute;
     left: 320px;
@@ -95,7 +56,6 @@ a {
     border-right: solid 7.5px white;
 }
 
-/* AboutMe */
 .AboutMe {
     position:relative;
     background-color: white;
@@ -115,7 +75,6 @@ a {
     width:100%;
 }
 
-/* bio, interests, hobbies are placed and styled w/in AboutMe section */
 .Bio {
     font-size:20px;
     position:absolute;
@@ -145,7 +104,6 @@ a {
     display: block;
 }
 
-/* Work section (containing placeholder applications) */
 .Work {
     position:relative;
     margin-top:50px;
@@ -165,27 +123,23 @@ a {
     margin-bottom:50px;
 }
 
-/* sets and flex wraps all work samples for viewport responsiveness */
 .work-samples {
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
 }
 
-/* moves and styles application images */
 img.semantic, img.password, img.quiz, img.planner, img.weather, img.movie {
     position:relative;
     border-radius: 10px;
 }
 
-/* brightens/saturates application's img color during img hover */
 img.semantic:hover, img.password:hover, img.quiz:hover, img.planner:hover, 
 img.weather:hover, img.movie:hover {
     filter: saturate(150%);
     box-shadow: 0 6px 20px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* p's for each application */
 .semantic-1, .password-1, .quiz-1, .planner-1, .weather-1, .movie-1 {
     color:black;
     margin-top:10px;
@@ -194,17 +148,10 @@ img.weather:hover, img.movie:hover {
     margin-bottom:20px;
 }
 
-/* adds black underline animation on hover for applications' p's */
-.semantic-1:hover, .password-1:hover, .quiz-1:hover, .planner-1:hover, .weather-1:hover, .movie-1:hover{
-    text-decoration: underline solid black 7.5px;
-}
-
-/* use of div space to prevent user from accidentally clicking on wrong link/image (proximity fix) */
 .space {
     margin: 50px;
 }
 
-/* Contact Me */
 .ContactMe {
     display:flex;
     flex-direction: row;
@@ -226,7 +173,6 @@ img.weather:hover, img.movie:hover {
     width:100%;
 }
 
-/* isolating first 2 p's in ContactMe section (number and email) */
 .p-contact p {
     display:inline-block;
     font-size:20px;
@@ -238,7 +184,6 @@ img.weather:hover, img.movie:hover {
     padding-top:25px;
 }
 
-/* isolating second 2 p's in ContactMe (GitHub and LinkedIn). Bc of <a> (text color must be set to black) */
 .p-contact .GitHub, .LinkedIn {
     display:inline-block;
     color:black;
@@ -250,12 +195,10 @@ img.weather:hover, img.movie:hover {
     padding-top:25px;
 }
 
-/* hover sets black underline for Github and LinkedIn links */
 .p-contact .GitHub:hover, .p-contact .LinkedIn:hover{
     text-decoration: underline solid black 7.5px;
 }
 
-/* Resume */
 .Resume {
     position:relative;
     display: block;
@@ -264,7 +207,6 @@ img.weather:hover, img.movie:hover {
     font-size:20px
 }
 
-/* Footer */
 footer {
     background-color:var(--content);
     width:100%;
@@ -273,6 +215,3 @@ footer {
     font-size:20px;
     margin-top:50px
 }
-
-
-
