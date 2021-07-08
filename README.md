@@ -10,7 +10,7 @@ Navigation links have been set up to scroll to the associated content. An "About
 
 URL:
 <br>
-Check out the deployed application here: https://tedheikkila.github.io/hw2-professional-portfolio/
+Check out the deployed application here: https://tedheikkila.github.io/professional-portfolio/
 
 Application screenshots:
 <br>
