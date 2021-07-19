@@ -132,6 +132,11 @@ img.weather:hover, img.movie:hover {
     font-size:20px;
 }
 
+.email {
+    margin-top: 3%;
+    font-size: 20px;
+}
+
 .resume {
     position:relative;
     display: block;
