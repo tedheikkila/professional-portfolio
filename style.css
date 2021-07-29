@@ -111,22 +111,26 @@ a:hover {
     color:black
 }
 
-.semantics, .password-gen, .coding-quiz, .daily-planner, .weather-dashboard, .movie-pop {
+.semantics, .password-gen, .coding-quiz, .daily-planner, .weather-dashboard, 
+.movie-pop, .readme-generator, .team-generator, .note {
     margin: 2%;
 }
 
-img.semantic, img.password, img.quiz, img.planner, img.weather, img.movie {
+img.semantic, img.password, img.quiz, img.planner, 
+img.weather, img.movie, img.readme, img.team, img.note {
     position:relative;
     border-radius: 10px;
 }
 
 img.semantic:hover, img.password:hover, img.quiz:hover, img.planner:hover, 
-img.weather:hover, img.movie:hover {
+img.weather:hover, img.movie:hover, img.readme:hover, img.team:hover, 
+img.note:hover {
     filter: saturate(150%);
     box-shadow: 0 6px 20px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.semantic-1, .password-1, .quiz-1, .planner-1, .weather-1, .movie-1 {
+.semantic-1, .password-1, .quiz-1, .planner-1, .weather-1, 
+.movie-1, .readme-1, .team-1, .note-1 {
     margin-top: 3%;
     text-align:center;
     font-size:20px;
