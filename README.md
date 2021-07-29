@@ -2,7 +2,7 @@
 
 Summary: 
 <br>
-The objective of this application is to function as a portfolio containing professional content and working applications. HMTL, CSS, and Git were used. Please check back during the summer months of 2021, as content will be updated periodically. All past homework and project 1 have been updated as of 6/29/21. For best results, please render using Chrome.
+The objective of this application is to function as a portfolio containing professional content and working applications. HMTL, CSS, and Git were used. Please check back during the summer months of 2021, as content will be updated periodically. All past homework including project 2 have been updated as of 7/29/21. For best results, please render using Chrome.
 
 Breakdown: 
 <br>

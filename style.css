@@ -144,7 +144,7 @@ img.note:hover, img.employee:hover, img.e-commerce:hover, img.one-track:hover {
     font-size: 20px;
 }
 
-.resume-container {
+#resume {
     text-align: center;
     margin-top: 30px;
     font-size:25px
